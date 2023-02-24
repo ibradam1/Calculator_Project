@@ -49,6 +49,11 @@ body {
     cursor: pointer;
 }
 
+.number:hover {
+    background-color: mistyrose;
+    transition: background-color 0.1s;
+}
+
 #equals {
     grid-column: span 2;
 }
@@ -58,16 +63,26 @@ body {
     color:rgb(250, 0, 104)
 }
 
+.operator:hover {
+    background-color: rgb(255, 205, 251);
+    transition: background-color 0.1s;
+}
+
 .func {
     background-color: rgb(255, 145, 0);
     color: white;
     font-size: 30px;
 }
 
+.func:hover {
+    background-color:rgb(253, 166, 53);
+    transition: background-color 0.1s;
+    size: 100px;
+}
+
 .number {
     background-color: pink;
-    color:rgb(250, 0, 104)
-    
+    color:rgb(250, 0, 104);
 }
 
 #AC {
