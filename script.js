@@ -110,7 +110,7 @@ function equals(textArr) {
         console.log(runningTotal);
     }
 
-    return runningTotal;
+    return Math.round(runningTotal * 100000) / 100000;
 }
 
 numbers();
