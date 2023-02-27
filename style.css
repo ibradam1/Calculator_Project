@@ -27,6 +27,19 @@ body {
     padding: 20px;
     border-radius: 20px;
     color: rgb(255, 46, 192);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.screen-input {
+    flex: 1;
+    overflow: auto;
+    word-wrap: break-word;
+}
+
+.screen-solution {
+    font-size: 40px;
 }
 
 .buttons {
